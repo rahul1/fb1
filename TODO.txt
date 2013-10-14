@@ -1,0 +1,9 @@
+ * Tokenizer
+ * Feature selection. Which words/bigrams are collected into prob table.
+   Maybe should compute a joint prob table BEFORE sending to NB classifier
+
+   Need to compute vocab. Separate for 1-gram and 2-gram
+   Can use vocab to compute tf-idf
+
+* Compute bigrams: Will this take a lot of mem?
+* train NB
